@@ -24,3 +24,6 @@ jobs:
 
     - name: Run basic test
       run: echo "Running basic check" && node app.js
+
+    - name: Run ESLint
+      run: npm run lint
